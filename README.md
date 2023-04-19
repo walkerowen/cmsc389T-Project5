@@ -4,6 +4,6 @@ Here is the repsository for my personal web page. The changes that I made to the
 
 You can find my site at:
 1) https://terpconnect.umd.edu/~wowen1/cmsc389T-Project5/
-2) 
+2) https://walkerowen.github.io/
 
 
