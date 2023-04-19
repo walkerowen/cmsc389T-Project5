@@ -14,4 +14,6 @@ jobs:
           password: ${{ secrets.PASSWORD }}
           port: ${{ secrets.PORT }}
           script: |
+              cd pub
+              ls
               git clone git@github.com:walkerowen/cmsc389T-Project5.git
