@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
 jobs:
   job_one:
-    name: Clean
+    name: delete
     runs-on: ubuntu-latest
     steps:
       - name: testing
@@ -14,5 +14,6 @@ jobs:
           password: ${{ secrets.PASSWORD }}
           port: ${{ secrets.PORT }}
           script: |
+              cd ../pub
               unalias rm
               rm -rf cmsc389T-Project5
